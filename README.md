@@ -73,9 +73,11 @@ This way, API keys allow the API server to identify the origin of each API call.
 
 * On Postman paste the Invoke URL and click on Send
 * We get the {"message":"Forbidden"}
+* Getting the "Forbidden" message means that is workinng
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security18.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-* API is requesting to use the API key to give access to the news sentiment
+Now we need to configure the API key with Postman to be able to access the API Gateway.
+ 
 * To configure the API key we click on Headers
 * On key field type - x-api-key
 * Value field paste the API key
