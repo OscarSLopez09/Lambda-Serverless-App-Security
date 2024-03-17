@@ -57,42 +57,59 @@ This way, API keys allow the API server to identify the origin of each API call.
 * Select Edit
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security13.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-Click API key required check mark and click Save
-Click on Deploy to deploy the API
-Deploy API Stage - Dev
-Click on Deploy
-Now proceed to tested out.
+* Click API key required check mark and click Save
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security15.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Click on Deploy to deploy the API
+* Deploy API Stage - Dev
+* Click on Deploy
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security16.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+## Now proceed to tested out.
+
 Copy the POST Invoke URL
-On Postman paste the Invoke URL and click on Send
-We get the {"message":"Forbidden"}
-API is requesting to use the API key to give access to the news sentiment
-To configure the API key we click on Headers
-On key field type - x-api-key
-Value field paste the API key
-Click on Send 
-We get the response
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security17.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-Go back to Resources and click on Deploy API to re deploy
-On Stage - New Stage name
-Stage name - Prod
-Click on Deploy
+* On Postman paste the Invoke URL and click on Send
+* We get the {"message":"Forbidden"}
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security18.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-Go back to Usage plans
-Add the Prod Stage by clicking add stage
-On Stage details select - NewsReaderAPI
-Select Stage - Prod
-Click on Add to usage plan
+* API is requesting to use the API key to give access to the news sentiment
+* To configure the API key we click on Headers
+* On key field type - x-api-key
+* Value field paste the API key
+* Click on Send 
+* We get the response
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security19.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-Go back to the API and select Stages
-Select the Prod Stage and copy the POST Invoke URL
+* Go back to Resources and click on Deploy API to re deploy
+* On Stage - New Stage name
+* Stage name - Prod
+* Click on Deploy
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security20.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-Testing Prod stage on Postman
-Go back to the Postman
-Paste the Prod URL and click on Send
-Select Headers and on key type -x-api-key
-On Value field paste the API key
-Click on Send
-The result is successful!
+* Go back to Usage plans
+* Add the Prod Stage by clicking add stage
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security21.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* On Stage details select - NewsReaderAPI
+* Select Stage - Prod
+* Click on Add to usage plan
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security24.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Go back to the API and select Stages
+* Select the Prod Stage and copy the POST Invoke URL
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security25.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+## Testing Prod stage on Postman
+
+* Go back to the Postman
+* Paste the Prod URL
+* Select Headers and on key type -x-api-key
+* On Value field paste the API key
+* Click on Send
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security27.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+* The result is successful!
 
 
 
