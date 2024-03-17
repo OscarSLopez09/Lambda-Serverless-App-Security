@@ -6,21 +6,29 @@ The API key consists of randomly generated characters of alphabets and numbers. 
 
 When an application sends API requests, the process works as follows:
 
-1. The API server validates the requestor's authenticity with the unique API key
-2. If the API key doesn't match any of the permitted ones, the server declines the API call and sends a rejection message
-3. If the API key matches, the server fulfills the request and returns the expected response
+1. The API server validates the requestor's authenticity with the unique API key.
+2. If the API key doesn't match any of the permitted ones, the server declines the API call and sends a rejection message.
+3. If the API key matches, the server fulfills the request and returns the expected response.
 
 This way, API keys allow the API server to identify the origin of each API call. The server can then perform subsequent validations to authorize access to the API's data and services.
 
 We go to the API Gateway console, we scroll down to Usage plans and click on it.
-Select Create usage plan
-On Usage plan details create the name - startupNewssentiment
-Rate -1000
-Burst - 500
-Requests -200
-Click on Create usage plan
-Once the usage plan has been created
-Go to API keys and select Create API key
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security00.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Select Create usage plan
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security01.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* On Usage plan details create the name - startupNewssentiment
+* Rate -1000
+* Burst - 500
+* Requests -200
+* Click on Create usage plan
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security02.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Once the usage plan has been created
+* Go to API keys and select Create API key
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security04.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
 On the API key details
 Create name - StartupApiNews
 Click on Save
