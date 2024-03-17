@@ -29,21 +29,31 @@ This way, API keys allow the API server to identify the origin of each API call.
 * Go to API keys and select Create API key
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security04.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-On the API key details
-Create name - StartupApiNews
-Click on Save
-Now, copy the API key generated
-Associate the API key with an usage plan
-Select Add to usage plan
-On Usage plan click the drop-down and select StartupNewssentiment
-Click Save
-Go back to Usage plan and add stage
-On Stage details, click the drop-down on API select NewsReaderAPI
-On Stage select - Dev 
-Click on Add to usage plan
-Go back to API, then Resources
-Click on POST and edit Method request
-On Method request settings
+* On the API key details
+* Create name - StartupApiNews
+* Click on Save
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security05.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Now, copy the API key generated
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security06.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Associate the API key with an usage plan
+* Select Add to usage plan
+* On Usage plan click the drop-down and select StartupNewssentiment
+* Click Save
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security07.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Go back to Usage plan and add stage
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security09.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* On Stage details, click the drop-down on API select - NewsReaderAPI
+* On Stage select - Dev 
+* Click on Add to usage plan
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security10.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+* Go back to API, then Resources
+* Click on POST 
+* Click on Method request settings
 Click API key required check mark and click Save
 Click on Deploy to deploy the API
 Deploy API Stage - Dev
