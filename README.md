@@ -12,7 +12,7 @@ When an application sends API requests, the process works as follows:
 
 This way, API keys allow the API server to identify the origin of each API call. The server can then perform subsequent validations to authorize access to the API's data and services.
 
-We go to the API Gateway console, we scroll down to Usage plans and click on it.
+* We go to the API Gateway console, we scroll down to Usage plans and click on it.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security00.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * Select Create usage plan
