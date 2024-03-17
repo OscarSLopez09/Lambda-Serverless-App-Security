@@ -37,7 +37,8 @@ This way, API keys allow the API server to identify the origin of each API call.
 * Now, copy the API key generated
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security06.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-* Associate the API key with an usage plan
+## Associate the API key with an usage plan
+
 * Select Add to usage plan
 * On Usage plan click the drop-down and select - StartupNewssentiment
 * Click Save
