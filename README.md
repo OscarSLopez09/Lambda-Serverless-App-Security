@@ -108,10 +108,12 @@ Now we need to configure the API key with Postman to be able to access the API G
 
 * Go back to the Postman
 * Paste the Prod URL
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security28.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
 * Select Headers and on key type -x-api-key
 * On Value field paste the API key
 * Click on Send
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security27.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security26.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 * The result is successful!
 
 
