@@ -19,9 +19,9 @@ This way, API keys allow the API server to identify the origin of each API call.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security01.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * On Usage plan details create the name - startupNewssentiment
-* Rate -1000
+* Rate - 1000
 * Burst - 500
-* Requests -200
+* Requests - 200
 * Click on Create usage plan
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security02.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
