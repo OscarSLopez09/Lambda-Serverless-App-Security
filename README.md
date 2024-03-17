@@ -55,6 +55,7 @@ This way, API keys allow the API server to identify the origin of each API call.
 * Click on POST 
 * Click on Method request tab
 * Select Edit
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security13.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 Click API key required check mark and click Save
 Click on Deploy to deploy the API
