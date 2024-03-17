@@ -46,14 +46,16 @@ This way, API keys allow the API server to identify the origin of each API call.
 * Go back to Usage plan and add stage
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security09.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
-* On Stage details, click the drop-down on API select - NewsReaderAPI
+* On Stage details, click the drop-down API select - NewsReaderAPI
 * On Stage select - Dev 
 * Click on Add to usage plan
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security10.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * Go back to API, then Resources
 * Click on POST 
-* Click on Method request settings
+* Click on Method request tab
+* Select Edit
+
 Click API key required check mark and click Save
 Click on Deploy to deploy the API
 Deploy API Stage - Dev
