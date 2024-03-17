@@ -68,7 +68,7 @@ This way, API keys allow the API server to identify the origin of each API call.
 
 ## Now proceed to tested out.
 
-Copy the POST Invoke URL
+* Copy the POST Invoke URL
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security17.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * On Postman paste the Invoke URL and click on Send
