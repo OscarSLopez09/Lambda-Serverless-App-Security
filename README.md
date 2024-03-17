@@ -82,7 +82,7 @@ Now we need to configure the API key with Postman to be able to access the API G
 * On key field type - x-api-key
 * Value field paste the API key
 * Click on Send 
-* We get the response
+* We received the sentiment with the news, this is the expected response
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security19.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * Go back to Resources and click on Deploy API to re deploy
