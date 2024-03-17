@@ -6,9 +6,9 @@ The API key consists of randomly generated characters of alphabets and numbers. 
 
 When an application sends API requests, the process works as follows:
 
-1 The API server validates the requestor's authenticity with the unique API key
-2 If the API key doesn't match any of the permitted ones, the server declines the API call and sends a rejection message
-3 If the API key matches, the server fulfills the request and returns the expected response
+1. The API server validates the requestor's authenticity with the unique API key
+2. If the API key doesn't match any of the permitted ones, the server declines the API call and sends a rejection message
+3. If the API key matches, the server fulfills the request and returns the expected response
 
 This way, API keys allow the API server to identify the origin of each API call. The server can then perform subsequent validations to authorize access to the API's data and services.
 
