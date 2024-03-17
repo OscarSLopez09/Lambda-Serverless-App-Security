@@ -114,7 +114,9 @@ Now we need to configure the API key with Postman to be able to access the API G
 * On Value field paste the API key
 * Click on Send
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security26.PNG" height="110%" width="110%" alt="Disk Sanitization Steps"/>
+
 * The result is successful!
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security29.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 
 
