@@ -116,6 +116,7 @@ Now we need to configure the API key with Postman to be able to access the API G
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security26.PNG" height="110%" width="110%" alt="Disk Sanitization Steps"/>
 
 * The result is successful!
+* The API is able to fetch the news with the sentiment
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security29.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 
