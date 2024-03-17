@@ -39,7 +39,7 @@ This way, API keys allow the API server to identify the origin of each API call.
 
 * Associate the API key with an usage plan
 * Select Add to usage plan
-* On Usage plan click the drop-down and select StartupNewssentiment
+* On Usage plan click the drop-down and select - StartupNewssentiment
 * Click Save
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security07.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
