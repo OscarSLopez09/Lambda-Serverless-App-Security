@@ -12,6 +12,15 @@ When an application sends API requests, the process works as follows:
 
 This way, API keys allow the API server to identify the origin of each API call. The server can then perform subsequent validations to authorize access to the API's data and services.
 
+This is part 6 final part of the project, link to the other parts below:
+
+- [Part 1 Lambda Serverless App ](https://github.com/OscarSLopez09/Lambda-Serverless-App)
+- [Part 2 Testing the first part ](https://github.com/OscarSLopez09/Serverless-Testing-Part1)
+- [Part 3 Creating the backend lambda](https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2)
+- [Part 4 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
+- [Part 5 Creating CloudWatch event](https://github.com/OscarSLopez09/Serverless-Cloudwatch-Rule)
+
+
 * We go to the API Gateway console, we scroll down to Usage plans and click on it.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security00.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
@@ -118,6 +127,16 @@ Now we need to configure the API key with Postman to be able to access the API G
 * The result is successful!
 * The API is able to fetch the news with the sentiment
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security29.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+Links to the other parts of the project:
+
+- [Part 1 Lambda Serverless App ](https://github.com/OscarSLopez09/Lambda-Serverless-App)
+- [Part 2 Testing the first part ](https://github.com/OscarSLopez09/Serverless-Testing-Part1)
+- [Part 3 Creating the backend lambda](https://github.com/OscarSLopez09/Lambda-Serverless-App-Part2)
+- [Part 4 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
+- [Part 5 Creating CloudWatch event](https://github.com/OscarSLopez09/Serverless-Cloudwatch-Rule)
+
+
 
 
 
