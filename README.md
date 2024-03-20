@@ -36,10 +36,11 @@ This is part 6 final part of the project, link to the other parts below:
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security02.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * Once the usage plan has been created
-* Go to API keys and select Create API key
-<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security04.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 ## Creating API keys
+
+* Go to API keys and select Create API key
+<img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security04.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 
 * On the API key details
 * Create name - StartupApiNews
