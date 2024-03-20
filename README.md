@@ -20,6 +20,7 @@ This is part 6 final part of the project, link to the other parts below:
 - [Part 4 Creating API Gateway ](https://github.com/OscarSLopez09/Serverless-App-Part2-API-GW)
 - [Part 5 Creating CloudWatch event](https://github.com/OscarSLopez09/Serverless-Cloudwatch-Rule)
 
+## Creating usage plan
 
 * We go to the API Gateway console, we scroll down to Usage plans and click on it.
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security00.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
@@ -37,6 +38,8 @@ This is part 6 final part of the project, link to the other parts below:
 * Once the usage plan has been created
 * Go to API keys and select Create API key
 <img src="https://github.com/OscarSLopez09/Lambda-Serverless-App-Security/blob/main/Images/security04.PNG" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+
+## Creating API keys
 
 * On the API key details
 * Create name - StartupApiNews
